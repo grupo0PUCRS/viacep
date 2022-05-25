@@ -3,6 +3,7 @@
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gilberto-torrezan/viacep?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 ![Maven Central Version](https://img.shields.io/maven-central/v/com.github.gilberto-torrezan/viacep.svg)
 [![Build Status](https://travis-ci.org/gilberto-torrezan/viacep.svg?branch=master)](https://travis-ci.org/gilberto-torrezan/viacep)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=grupo0PUCRS_viacep&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=grupo0PUCRS_viacep)
 
 Cliente Java (SE, Android e GWT) para os webservices da ViaCEP.
 
