@@ -19,10 +19,7 @@
 		<maven.compiler.target>1.6</maven.compiler.target>
 
 		<gwtVersion>2.7.0</gwtVersion>
-	</properties>
-	
-	<properties>
-  		<sonar.organization>grupo0pucrs</sonar.organization>
+		<sonar.organization>grupo0pucrs</sonar.organization>
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
