@@ -1,7 +1,8 @@
+
+
 title Architecture
 
-component "ViaCepREST" as ViaCEP{
-}
+cloud "ViaCep.com.br" as ViaCEP
 
 
 package "WEB APP"{
