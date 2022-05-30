@@ -1,0 +1,5 @@
+Decisões Arquiteturais
+
+JAVA - Implementação
+Testes Unitários com JUnit - Testabilidade
+RestyGWT - Compatibilidade
