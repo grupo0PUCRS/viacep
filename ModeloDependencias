@@ -1,0 +1,43 @@
+@startuml
+
+
+
+title Diagrama de Dependências
+
+
+component [App] as App {
+
+}
+
+
+
+component [GWT] as GWT {
+
+}
+
+
+
+component [RestyGWT] as REST {
+
+}
+
+component [FasterXML] as JSON{
+
+}
+
+component [JUNIT] as TEST{
+
+}
+
+
+App <-- GWT
+
+App <-- REST
+
+App <-- JSON
+
+App <-- TEST
+
+
+
+@enduml
