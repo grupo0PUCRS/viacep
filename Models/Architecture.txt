@@ -1,0 +1,37 @@
+title Architecture
+
+component "ViaCepREST" as ViaCEP{
+}
+
+
+package "WEB APP"{
+  [ViaCepClient] as CLIENT2
+  [GenericComponen]
+  [GenericComponent3] --> CLIENT2
+}
+
+package "Android App"{
+  [ViaCepClient] as CLIENT
+  [OtherGenericComponent]
+  [ControllerComponent] --> CLIENT
+}
+
+package "GWT Client"{
+  [ViaCepClient] as CLIENT3
+  [OtherGenericComponent2]
+  [ControllerComponent2] --> CLIENT3
+}
+
+https --> ViaCEP
+ViaCEP --> https
+
+https --> CLIENT
+https --> CLIENT2
+https --> CLIENT3
+
+CLIENT --> https
+CLIENT2 --> https
+CLIENT3 --> https
+
+
+@enduml
